@@ -9,11 +9,17 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="topo">
             <ul>
-                <li>Âncora 1</li>
-                <li>Âncora 2</li>
-                <li>Âncora 3</li>
+                <a href="#PI">
+                    <li>Paciente Inconsciente</li>
+                </a>
+                <a href="#PC">
+                    <li>Paciente Consciente</li>
+                </a>
+                <a href="#OV">
+                    <li>Identifiquei a Ovace</li>
+                </a>
             </ul>
         </nav>
     </header>
@@ -26,7 +32,7 @@
     <section class="section-2">
         <div class="esquerda">
             <div class="conteudo-1">
-                <h2>Paciente<br>Inconsciente</h2>
+                <h2 id="PI">Paciente<br>Inconsciente</h2>
                 <p>
                     No protocolo de Suporte Básico de Vida (SBV), para a<br>avaliação inicial do paciente
                     com suspeita de parada<br>cardiorrespiratória (PCR) deve-se seguir a sequência<br>“CABD”:
@@ -72,7 +78,8 @@
     <section class="section-4">
         <div class="esquerda-1">
             <div class="conteudo-2">
-                <h2>Paciente<br>Consciente</h2>
+
+                    <h2 id="PC">Paciente<br>Consciente</h2>
                 <p>
                     Embora a perda de consciência seja a causa mais<br>frequente de obstrução das vias
                     aéreas (pela queda<br>da língua), a obstrução por corpos estranhos pode<br>provocar a perda de consciência e PCR. A<br>eventualidade de corpos estranhos obstruindo as vias<br>aéreas
@@ -145,7 +152,7 @@
     <section class="section-8">
         <div class="container">
             <div class="texto-principal-section-8">
-                <h3>IDENTIFIQUEI A OVACE, COMO PROCEDER?</h3>
+                <h3 id="OV">IDENTIFIQUEI A OVACE, COMO PROCEDER?</h3>
             </div>
             <div class="texto-secundario-section-8">
                 <p class="paragrafo">
@@ -256,5 +263,9 @@
             <img src="imagens/imagem3.jpg" alt="imagem3">
         </div>
     </section>
+
+    <a class="link-topo" href="#topo">
+        <img id="topo" class="btn-up" src="imagens/seta.svg" alt="">
+    </a>
 </body>
 </html>
