@@ -180,8 +180,13 @@ h1 {
     height: 400px;
     position: relative;
     right: 23%;
-    margin-top: 70px;
+    margin-top: 45px;
     background-color: #cfd0d4;
+}
+
+.imagem-1 img {
+    width: 400px;
+    height: 400px;
 }
 
 .section-5 {
@@ -450,4 +455,20 @@ a {
     position: fixed;
     right: 25px;
     bottom: 25px;
+}
+
+footer{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    background-color: #0084A0;
+    margin-top: 100px;
+}
+
+footer .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: sans-serif;
 }
